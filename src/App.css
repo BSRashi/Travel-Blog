@@ -1,0 +1,83 @@
+.container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.stage1 {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding: 3rem;
+}
+
+.photo1 img {
+    float: left; /* Left aligns the image */
+    width: 500px; /* Sets a fixed width for the image */
+    height: auto; /* Maintains the aspect ratio */
+    margin-right: 50px;
+    padding: 1rem; /* Adds some space to the right of the image */
+}
+
+
+.photo1 {
+  overflow: hidden; /* Clearfix for floated elements */
+}
+
+.photo1 a:link {
+  color: lightseagreen;
+  text-align: left;
+  padding: 0rem;
+  display: block;
+}
+
+.photo1 p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+}
+
+.photo2 {
+  overflow: hidden; /* Clearfix for floated elements */
+}
+
+.photo2 img {
+  float: left; /* Left aligns the image */
+  width: 500px; /* Sets a fixed width for the image */
+  height: auto; /* Maintains the aspect ratio */
+  margin-right: 50px;
+  padding: 1rem; /* Adds some space to the right of the image */
+}
+
+.photo2 a:link {
+  color: lightseagreen;
+  text-align: left;
+  padding: 0rem;
+  display: block;
+}
+
+.photo2 p {
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    padding: 1rem;
+}
+
+.stage2 {
+  text-align: left;
+  font-family: Arial, sans-serif;
+  padding: 3rem;
+}
